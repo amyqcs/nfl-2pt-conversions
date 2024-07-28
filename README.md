@@ -1,4 +1,4 @@
-## **Are NFL teams more likely to make a two-point conversion or a touchdown from the two-yard line?**
+## **Two-point Conversions vs. Two-Yard Touchdowns**
 
 Using two-sample t-tests to demonstrate why two-point conversions and touchdowns from the two-yard line lead to significantly different outcomes.
 
@@ -9,6 +9,8 @@ I used data from nflfastR which tracks every play from the NFL going back to 199
 **Results**
 
 ![](images/Rplot.png)
+
+Teams are overwhelmingly more likely to make a two-point conversion than a touchdown from the two-yard line.
 
 From 2018-2023, the average team made a two-point conversion 49.4% of the time (with a standard deviation of 0.0981), while making touchdowns from the two-yard line 40.5% of the time (with a standard deviation of 0.0638).
 
